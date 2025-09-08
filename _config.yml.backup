@@ -1,0 +1,13 @@
+# Simple GitHub Pages Configuration
+title: "NESO - Complaints Process for Initial Checks"
+description: "National Energy System Operator complaints procedure for initial checks"
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from build
+exclude:
+  - README.md
+  - source.html
