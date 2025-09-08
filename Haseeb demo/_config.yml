@@ -1,0 +1,48 @@
+# GitHub Pages Configuration
+# This file helps optimize your GitHub Pages deployment
+
+# Site settings
+title: "NESO - Complaints Process for Initial Checks"
+description: "National Energy System Operator complaints procedure for initial checks"
+url: "https://yourusername.github.io"  # Replace with your actual GitHub Pages URL
+baseurl: "/your-repository-name"       # Replace with your actual repository name
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from build
+exclude:
+  - README.md
+  - .gitignore
+  - node_modules/
+  - package*.json
+
+# Include files that start with underscore
+include:
+  - _redirects
+
+# Plugins (GitHub Pages supports these by default)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+author: "National Energy System Operator"
+twitter:
+  username: "NESO_energy"
+facebook:
+  app_id: ""
+  publisher: ""
+
+# Analytics (optional - add your tracking ID)
+google_analytics: ""
+
+# Social media
+social:
+  name: "National Energy System Operator"
+  links:
+    - "https://x.com/NESO_energy"
+    - "https://www.linkedin.com/company/neso-energy"
+    - "https://www.youtube.com/@NESO_energy"
